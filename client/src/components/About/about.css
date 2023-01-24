@@ -1,0 +1,199 @@
+
+.about-cont{
+    max-width: 100%;
+    /* height:fit-content; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-cont div{
+    flex: 0 50%;
+}
+.aboute-header{
+    margin: 0 auto;
+    padding: 60px 0;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid wheat; */
+}
+.header{
+    font-size: 70px;
+    /* border: 1px solid wheat; */
+    line-height: 50px;
+    font-weight:bolder;
+    
+   text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Poppins';
+
+}
+.header span{
+    color:#ffffff ;
+}
+
+.title-bg{
+    /* border: 1px solid wheat; */
+margin: 0;
+    position: absolute;
+    font-size: 10vw;
+    font-weight: 800;
+    letter-spacing: 22px;
+    line-height: 0.7;
+    text-transform: uppercase;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: -1;
+
+}
+/* about */
+/* section */
+.about-section{
+    position: relative;
+    width: 90%;
+    padding: 0 10% 0 0;
+}
+/* personal info */
+.personal-info-cont{
+width: 45%;
+
+}
+.personal-info-cont ul{
+    padding-left: 10px;
+    list-style: none;
+}
+.inf-row{
+    padding: 10px 0 10px 1px;
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    word-wrap:break-word;
+    color: #fff;
+
+}
+.inf-row span{
+    color: rgba(255, 255, 255, 0.425);
+    font-weight: 250;
+
+}
+.left{
+    text-align: left;
+    width: 50%;
+margin: 0;
+}
+.right{
+margin: 0;
+
+    width: 49%;
+    text-align: left;
+
+}
+/* cards */
+.cards-cont{
+    display: flex;
+  flex-wrap: wrap;
+    width: 45%;
+    
+}
+.cards-cont div{
+    flex:0 32%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+  box-shadow: 0 0 0 1px rgb(0, 0, 0);
+  margin: 10px;
+}
+/* card */
+.card-cont{
+    border: 1px solid rgb(88, 67, 67);
+    width:32% ;
+    height: fit-content ;
+    border-radius: 10px;
+    padding: 20px 20px 15px 30px;
+
+}
+.card-num{
+    text-align:left;
+    padding:5px 0px 0px 25px;
+    margin: 0;
+    word-wrap:break-word;
+    font-size: 50px;
+    font-weight: 800px;
+    /* */
+
+}
+.card-value{
+    text-align: center;
+    margin: 2vh 0 ;
+    word-wrap:break-word;
+   font-size: 17px;
+   font-weight: 800px;
+
+}
+.card-value sup{
+    color: rgba(255, 255, 255, 0.74);
+    font-weight: 500;
+}
+/* skills */
+.skills-section{
+display: flex;
+flex-wrap: wrap;
+max-width:100%;
+padding: 20px 50px 20px 50px;
+}
+.skills-section div{
+    flex:0 25%;
+    
+}
+section{
+    padding:25px;
+    max-width: 100%;
+}
+.section-header{
+    text-align: center;
+    margin: 80px 0px 80px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:900px){
+    .about-cont{
+        max-width: 100%;
+        /* height:fit-content; */
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-cont div{
+        flex: 0 100%;
+    }
+    .skills-section div{
+        flex:0 50%;
+        
+    }
+    .header{
+        font-size: 40px;
+        font-weight: 800;
+        /* border: 1px solid wheat; */
+    
+    }
+    .title-bg{
+        /* border: 1px solid wheat; */
+        font-size: 10vw;
+      
+    }
+    .section-header{
+
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .skills-section{
+       
+        width:100%;
+        padding: 20px 0px 20px 0px;
+        }
+}

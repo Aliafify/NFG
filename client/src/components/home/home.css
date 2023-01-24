@@ -1,0 +1,33 @@
+
+.vertival-cont{
+    max-width: 100%;
+    min-height: 100%;
+   margin: 0px !important;
+   padding: 0px !important;
+}
+.hero-section-cont{
+    /* margin-top: 80px !important; */
+    /* background-color: #ffb400; */
+}
+/*  */
+
+
+/* hero-section-home */
+@media only screen and (max-width:700px){
+
+    .hero-section-home{
+        flex-direction: column;
+}
+
+}
+/* section 2 */
+.who-us-sub-cont h2, .who-us-sub-cont h3{
+  text-align: start;
+  /* border: 1px solid; */
+  /* display: block; */
+  width: 100%;
+  margin: 5px;
+}
+.who-us-cont{
+    margin: 70px 0 0px 0;
+}

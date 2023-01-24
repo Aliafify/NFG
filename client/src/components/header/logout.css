@@ -1,0 +1,15 @@
+
+.logout-btn{
+
+    border: 0px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color:transparent !important;
+    cursor: pointer;
+}
+.logout-btn:hover{
+    color: green !important;
+}
+.logout-btn i{
+  vertical-align: middle;
+}

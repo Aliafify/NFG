@@ -1,0 +1,25 @@
+.social-cont{
+    max-width: 100%;
+    color: #ffffff;
+}
+.social-cont ul{
+   list-style: none;
+   width: 100%;
+}
+.social-item{
+    margin: 7px 0 7px 0;
+    cursor: pointer;
+}
+.social-item a{
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.social-item a:hover{
+    color: rgba(100, 148, 237, 0.589);
+}
+.social-item >a i{
+    vertical-align: middle;
+}

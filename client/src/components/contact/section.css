@@ -1,0 +1,31 @@
+#section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px 0px 50px;
+    max-width: 100%;
+}
+#section div:nth-child(1){
+    width:37%;
+    height: fit-content;
+    min-height: 50px;
+    margin-right: 20px;
+}
+#section div:nth-child(2){
+    width:59%;
+    height: fit-content;
+    min-height: 50px;
+
+}
+@media only screen and (max-width:900px) {
+    #section{
+        display: flex;
+        flex-direction: column;
+    }   
+    #section div:nth-child(1){
+        width:100%;
+   }
+    #section div:nth-child(2){
+        width:100%;
+    
+    }
+}

@@ -1,0 +1,22 @@
+.multi-ch{
+  
+  height: 48px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+ font-size: 18px;
+ display:grid;
+ padding: 10px;
+ grid-template-columns: 1fr 1fr;
+
+}
+.multi-ch:hover{background-color: azure;}
+.multi-ch-op{
+ cursor: pointer;
+}
+@media only screen and (max-width:900px) {
+  .multi-ch-op{
+    cursor: pointer;
+    font-size: 15px;
+   }
+}

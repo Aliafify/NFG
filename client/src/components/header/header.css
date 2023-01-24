@@ -1,0 +1,45 @@
+.header-span{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #F6F6F5;
+    line-height: 18px;
+}
+.header-span :hover{
+    color: #12784a;
+
+}
+header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    padding:5px 0 5px 0;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 5vw repeat(20);
+    align-items: center;
+    animation:animatetop 4s}
+  @keyframes animatetop{from{top:-300px;opacity:0} to{top:0px;opacity:1}
+}
+
+.header-menu-btn{
+    grid-column-start: 0;
+    grid-column-end: 3;
+}
+.logo{
+    cursor: pointer;
+    width:60px;
+    grid-column-start: 11;
+    grid-column-end: 13;
+}
+.header-span-signup{
+    grid-column-start: 18;
+    grid-column-end: 19;
+}
+.header-span-login{
+    grid-column-start: 19;
+    grid-column-end: 20;
+}

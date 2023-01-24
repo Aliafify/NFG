@@ -1,0 +1,113 @@
+.metion-container{
+    padding-bottom: 10px;
+    margin: 0px;
+    min-height: 300px;
+    height: fit-content;
+}
+
+.home-board-nav .sub-nav-bttn {
+    width: 140px;
+    height: 20%;
+    font-size: 11px;
+    background-color: #0375a7 !important; ;
+    color: inherit;
+    text-transform: capitalize;
+    border: 1px solid #9CA1AA;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #ffb30013;
+    transition: 0.5s ease-in-out
+}
+
+.sub-nav-bttn:hover {
+    background-color: #ffb300b9;
+    transition: 0.3s;
+    transform: scale(1.1)
+}
+
+.board-home {
+    /* border:1px solid ; */
+    padding: 0px 20px 0px 30px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-grow: inherit; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: start;
+    text-justify: distribute;
+    line-height: 30px;
+    word-spacing: 10px;
+    font-size: 18px;
+    color: rgba(245, 242, 242, 0.952);
+    font-weight: 800;
+    background-color: #ffb300b6;
+    border: 1px solid;
+}
+
+/* board */
+
+
+.home-board-nav {
+    width: 200px;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 300px;
+}
+
+.home-board-text {
+    height: 300px;
+    width: 600px;
+    flex-grow: 1;
+}
+
+/*  */
+.board-home-text-cont {
+    padding: 0px;
+    border: 1px solid;
+    /* display: table; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0.253);
+    background-image: url(../../icons/louis-moinet/Louis-Moinet-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+@media only screen and (max-width:900px){
+    .home-board-cont {
+        flex-direction: column;
+
+    }
+    .home-board-nav{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        /* margin-bottom: 15px; */
+    }
+    .sub-nav-bttn {
+        width:15vw;
+        height: 6vw;
+        font-size: 1.4vw;
+        
+    }
+    .board-home-text-cont {
+        width: 90%;
+        
+    }
+    .home-board-text{
+        width:100%;
+        height: fit-content;
+    }
+    .board-home{
+        font-size: 0.71rem;
+        line-height: 40px;
+
+    }
+}

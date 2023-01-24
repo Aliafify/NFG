@@ -1,0 +1,65 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    min-height: fit-content;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
+
+.form-row{
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100% !important;
+}
+.form-row input{
+    width: 40% !important;
+   
+}
+input {
+    margin-top: 35px;
+    border: 1px solid #111;
+    border-radius: 20px;
+    background-color: #252525;
+    height: 25px;
+    transition: 1000;
+    padding: 11px 26px;
+
+}
+textarea{
+    margin-top: 35px;
+    border: 1px solid #111;
+    border-radius: 20px;
+    background-color: #252525;
+    transition: 1000;
+    padding: 11px 26px;
+}
+input[type=submit]{
+    width: 219px;
+    height: 55px;
+    cursor: pointer;
+    color: white;
+}
+input[type=submit]:hover{
+    background-color: #ffb400 !important;
+    transition: 1000ms;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @media only screen and (max-width:900px) {
+    input[type=submit]{
+      transform: translate(-50%,0%);
+      position: relative;
+      left:50%;
+      margin-top: 25px;
+
+    }
+  }

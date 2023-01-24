@@ -1,0 +1,56 @@
+.sidnav{
+    width: 100%;
+    height: 100%;
+    background-color: #3A444E;
+    /* direction: rtl; */
+    color: burlywood;
+}
+.quench-icon{
+    cursor: pointer;
+    color: gray;
+}
+.quench-icon:hover{
+    color: black;
+}
+.menu-item:hover{
+  background-color: black;
+ padding: 5px;
+ color: white;
+ cursor: pointer;
+}
+.active-tab{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+.side-menu{
+    list-style: none;
+    padding-right: 1vw;
+}
+.side-tab{
+    display: inline-block;
+    width:90%;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.menu-item{
+    margin-bottom: 10px;
+    padding: 0px;
+    border-bottom: 1px solid gray;
+    line-height: 40px;
+}
+.side-link{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 16px;
+    display: block;
+    width: 95%;
+    height: 100%;
+    vertical-align: middle;
+}
+.side-link i{
+    vertical-align: middle;
+}

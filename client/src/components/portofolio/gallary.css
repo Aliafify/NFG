@@ -1,0 +1,94 @@
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 50px 50px 50px 50px ;
+}
+.gallary div{
+    flex:0 30%;
+}
+.g-item {
+/* width: 20vw; */
+margin:3% 0 0 3%;
+    height: 17vw;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0.5px rgb(226, 226, 226);
+    cursor: pointer;
+}
+/*  projectDetails.js */
+.details-cont{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.details-cont span{
+    display: inline-block;
+    flex:0 50% ;
+    font-size: 15px ;
+    line-height: 30px;
+}
+#project{
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#project span{
+display:inline-block;
+   height: 100%;
+width: 100%;
+transition: 0.7s;
+
+}
+#project span::after{
+    transition: 0.7s;
+
+}
+#project span:hover::after{
+    transition: 0.7s;
+content: attr(data-content);
+background-color: #ffb300;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+#pr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    ;align-items: center;
+}
+@media only screen and (max-width:900px){
+    .gallary{
+    padding: 30px 30px 30px 30px ;
+
+    }
+    .g-item {
+        width:20vw;
+        height: 22vh !important;
+        margin-bottom: 5vh !important;
+    }
+  
+    .gallary div{
+        flex:0 45%;
+    }
+   
+}
+@media only screen and (max-width:400px){
+    .gallary{
+        max-width: 100vw;
+        /* padding: 30px 20px 30px 20px ; */
+    
+        }
+    .g-item {
+        height: 100px;
+margin:3% 0 0 3%;
+
+    }
+    .gallary div{
+        flex:0 100%;
+    }
+}
+

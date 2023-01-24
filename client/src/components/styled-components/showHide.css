@@ -1,0 +1,29 @@
+.sh-h-btn{
+    height: fit-content;
+    position: relative;
+}
+.btn-element{
+    position: absolute;
+}
+
+
+.cal-button {
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns:60% 20% 15%;
+    align-items: center;
+    column-gap: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+@media only screen and (max-width:500px) {
+    .sh-h-btn{
+        width:42vw;
+    }
+}

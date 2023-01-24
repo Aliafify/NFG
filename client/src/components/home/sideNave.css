@@ -1,0 +1,77 @@
+.main-menu h5{
+    color: #ffffff;
+}
+.main-menu ul{
+   list-style: none;
+   /* border:1px solid; */
+   /* height: 100%; */
+}
+
+.main-menu ul li{
+    padding: 0px;
+    
+}
+.main-menu ul li:hover ,.main-menu .main-menu-item:hover{
+   color: rgba(100, 148, 237, 0.589);
+   transition: 0.6s;
+   animation: animatleft,;  
+}
+@keyframes animatleft{from{left:-200px;opacity:0;transition: 2s ease;} to{left:0px;opacity:1}
+}
+
+.main-menu-item{
+    display: block;
+    color: #ffffffff;
+    text-decoration: none;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+    width: 90% !important;
+    height: 100% !important;
+    margin: 0px;
+    padding: 5px;
+
+}
+
+.lang-cont{
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  height: fit-content;
+  /* border: 1px solid; */
+}
+.lang-choices{
+  position: absolute;
+  bottom: -47px;
+  left: 50px;
+  color: #ffffff;
+  font-size:12px ;
+  animation: animatleft;
+}
+.lang-choices ul{
+    list-style: none;
+
+}
+.lang-choices li{
+   padding: 4px;
+   cursor: pointer;
+   width: 40px;
+}
+.lang-choices li:hover{
+    color: rgba(100, 148, 237, 0.589);
+    transition: 0.7s ease-in-out;
+}
+.lang-switch{
+    background-color: transparent;
+    border: 0px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-left: 40px;
+    font-size:0.875rem;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+.lang-switch:hover{
+    color: rgba(100, 148, 237, 0.589);
+    transition: 0.7s ease-in-out;
+}
+

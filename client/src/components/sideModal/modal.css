@@ -1,0 +1,75 @@
+.side-modal-overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.19);
+    opacity: 0.7;
+    z-index: 1000;
+}
+.side-modal-cont{
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    transform: translate(0% ,-50%);
+    z-index: 1000;
+
+    overflow-wrap:scroll; /* ?? */
+
+    background-color: #212121;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0px #fff;
+    padding: 0px;
+    
+    
+}
+
+.side-close{
+
+cursor: pointer;
+z-index: 1000;
+}  
+.side-close:hover{
+  color: red;
+}         
+           /* scroll bar  */
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+    visibility: hidden;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+    visibility: hidden;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    visibility: hidden;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    visibility: hidden;
+  }
+@media screen and (max-width:700px) {
+  .side-modal-cont{
+    width:90% !important;
+}
+#side-close{
+  top: 1%;
+  right: 1%;
+  z-index: 1100;
+  }
+ 
+}
+/* left motion */
+.left-motion{
+  animation:animateleft 0.4s}
+  @keyframes animateleft{from{left:-300px;opacity:0} to{left:0px;opacity:1}
+}
