@@ -11,14 +11,18 @@ function HeroSection() {
         <div className="hero-section">
           <div className='over-lay'>
             <Contain height='100%'>
-              <Col width='50%' dir='column' align='flex-start'>
+              <Col width='40%' dir='column' align='flex-start'>
+                <div className='heroContent'>
                 <h1>
                   NFG - Header 
                 </h1>
                 <p >
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
                 </p>
-                <button className='ctn'>Call To Action<span> <FcOvertime/></span></button>
+                </div>
+                <button className='ctn'>Call To Action
+                {/* <span> <FcOvertime/></span> */}
+                  </button>
               </Col>
               <Col width='40%'></Col>
             </Contain>

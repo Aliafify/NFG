@@ -4,7 +4,7 @@ import "./loginBar.css";
 import Modal from "../modal/modal";
 import Appointment from "./Appointment";
 import Header from "../header/header"
-import Logo from "../../icons/Logo.png"
+import Logo from "../../icons/Logo.svg"
 import Login from "./login";
 import SideNave from "./sideNave";
 

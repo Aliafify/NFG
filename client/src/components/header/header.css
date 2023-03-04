@@ -14,9 +14,10 @@
 }
 header{
     position: fixed;
+    background: rgba(0,0,0,0.8);
     top:0px;
     width: 100%;
-    padding:5px 0 5px 0;
+    padding:1rem 0 ;
     margin: 0px;
     display: grid;
     grid-template-columns: 5vw repeat(20);
@@ -31,7 +32,7 @@ header{
 }
 .logo{
     cursor: pointer;
-    width:60px;
+    width:4rem;
     grid-column-start: 11;
     grid-column-end: 13;
 }
